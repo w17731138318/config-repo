@@ -8,6 +8,11 @@
 spring:
   application:
     name: client
+  rabbitmq:
+    host: 47.92.96.175
+    port: 5672
+    username: user
+    password: 2wxSWING
 server:
   port: 8080
 evn: dev
